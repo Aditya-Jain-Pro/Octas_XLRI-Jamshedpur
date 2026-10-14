@@ -4,11 +4,11 @@
 >
 > *Hriday* (हृदय) means heart. HridAI is a virtual replica of a heart-failure patient that watches them through the 30 days after hospital discharge and warns their doctor days before they would be readmitted.
 
-### ▶ [Open the live dashboard](https://claude.ai/artifact/NUTA8SNFtbnV7SRMqw45AQ)
+### ▶ [Open the live dashboard](https://Aditya-Jain-Pro.github.io/Octas_XLRI-Jamshedpur/)
 
-Runs in any web browser, no install. The same dashboard ships in this repository as [`dashboard/index.html`](dashboard/index.html); download it and double-click to open it offline.
+Runs in any web browser, no sign-in and no install. It is served by GitHub Pages straight from [`dashboard/index.html`](dashboard/index.html) in this repository. To use it offline, download that one file and double-click it.
 
-[![HridAI Twin Monitor](docs/figures/web_dashboard.png)](https://claude.ai/artifact/NUTA8SNFtbnV7SRMqw45AQ)
+[![HridAI Twin Monitor](docs/figures/web_dashboard.png)](https://Aditya-Jain-Pro.github.io/Octas_XLRI-Jamshedpur/)
 
 ## Submission checklist
 
@@ -21,11 +21,12 @@ Runs in any web browser, no install. The same dashboard ships in this repository
 | Healthcare use case | [Healthcare use case](#healthcare-use-case) |
 | Technical stack | [Technical stack](#technical-stack) |
 | AI/ML model or framework details | [AI/ML model](#aiml-model) |
+| Demo video (20 min, unlisted YouTube) | [Demo video](#demo-video) |
 | Open-source licence | [Licence](#open-source-licence) (MIT) |
 | Architecture diagram (PDF) | [docs/architecture.pdf](docs/architecture.pdf) |
 | Presentation (PDF/PPT) with project details and outcomes | [docs/presentation.pdf](docs/presentation.pdf) · [docs/presentation.pptx](docs/presentation.pptx) |
-| Live dashboard | [Open in browser](https://claude.ai/artifact/NUTA8SNFtbnV7SRMqw45AQ) · [dashboard/index.html](dashboard/index.html) |
-| All files and links publicly accessible | Yes. This repository is public and every document is inside the repository. |
+| Live dashboard | [Open in browser (GitHub Pages)](https://Aditya-Jain-Pro.github.io/Octas_XLRI-Jamshedpur/) · [dashboard/index.html](dashboard/index.html) |
+| All files and links publicly accessible | Yes. This repository is public, the dashboard is on public GitHub Pages, the video is unlisted (viewable by anyone with the link), and every document is inside the repository. |
 
 ## Team details
 
@@ -130,8 +131,9 @@ To keep the test honest, each synthetic patient's sensors respond differently fr
 ## Repository structure
 
 ```
-Digital-Twin/
+Octas_XLRI-Jamshedpur/
 ├── README.md                   this file (all submission items)
+├── index.html                  opens the dashboard (GitHub Pages entry point)
 ├── LICENSE                     MIT
 ├── requirements.txt
 ├── twin.py                     synthetic cohort, the twin, evaluation
@@ -161,6 +163,31 @@ pytest                   # run the tests
 python dashboard/build_dashboard.py   # rebuild the browser dashboard
 streamlit run app.py     # open the Streamlit dashboard at http://localhost:8501
 ```
+
+## Demo video
+
+▶ **[Watch the demo video on YouTube](https://youtu.be/j7QPPHDWHHg)**
+
+Length 20:00, 1080p, unlisted (anyone with the link can watch, no sign-in needed), English captions included. It walks through the problem, the model, a live dashboard demo and the results.
+
+| Time | Chapter |
+|---|---|
+| 0:00 | Introduction |
+| 0:43 | Ramesh's story |
+| 1:37 | Why heart failure in India |
+| 2:31 | Why the 2 kg weight rule falls short |
+| 3:17 | The solution in practice |
+| 4:37 | The key idea: one hidden quantity |
+| 5:23 | How the model works |
+| 6:17 | Architecture |
+| 7:52 | What makes it a real digital twin |
+| 9:26 | Synthetic data and testing |
+| 10:54 | Live dashboard demo |
+| 15:04 | Streamlit dashboard |
+| 15:41 | Results |
+| 18:01 | Impact and pilot plan |
+| 18:46 | Limits and next steps |
+| 19:30 | Close |
 
 ## Limitations
 
